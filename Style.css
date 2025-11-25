@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+}
+
+header {
+  background: #ececec;
+  padding: 40px;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+}
+
+.content {
+  padding: 40px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Caixas simulando imágenes */
+.images {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.img-box {
+  width: 140px;
+  height: 140px;
+  background: #dcdcdc;
+  border-radius: 15px;
+}
+
+/* --- COOKIE POPUP --- */
+.cookie-popup {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 260px;
+  background: #000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 25px 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cookie-icon {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.cookie-text {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.accept-btn {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 0;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.accept-btn:hover {
+  background: #eaeaea;
+}
